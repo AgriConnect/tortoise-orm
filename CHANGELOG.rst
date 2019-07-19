@@ -6,6 +6,7 @@ Changelog
 0.12.6
 ------
 * Split model consructor into from-Python and from-DB paths, leading to 15-25% speedup for large fetch operations.
+* More efficient queryset manipulation, 5-30% speedup for small fetches.
 
 0.12.5
 ------
