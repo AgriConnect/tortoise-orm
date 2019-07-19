@@ -3,6 +3,10 @@
 Changelog
 =========
 
+0.12.6
+------
+* Split model consructor into from-Python and from-DB paths, leading to 15-25% speedup for large fetch operations.
+
 0.12.5
 ------
 * Using non registered models or wrong references causes an ConfigurationError with a helpful message.
